@@ -10,3 +10,10 @@ export const socialLinks = [
     { id:2, href:'https://www.twitter.com', icon: 'fab fa-twitter'},
     { id:3, href:'https://www.twitter.com', icon: 'fab fa-squarespace'}
 ]
+
+export const services = [
+    {id: 1, icon: 'fas fa-wallet fa-fw', title: 'saving money', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.'},
+    {id: 2, icon: 'fas fa-wallet fa-fw', title: 'Endless Hiking', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.'},
+    {id: 3, icon: 'fas fa-wallet fa-fw', title: 'Adventure Time', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.'},
+
+]
