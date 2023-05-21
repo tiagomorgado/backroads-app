@@ -20,16 +20,16 @@ const Footer = () => {
         {
           socialLinks.map((link) => {
             const {id, href, icon} = link
-            return(
+            return (
               <li key={id}>
-                <a href={href} target="_blank" className="footer-icon" rel="noreferrer"
-                  ><i className={icon}></i
-                ></a>
-              </li>
+              <a href={href} target="_blank" className="footer-icon" rel="noreferrer">
+                <i className={icon}></i></a>
+            </li>
             )
           })
-        }
+        }       
       </ul>
+
       <p className="copyright">
         copyright &copy; Backroads travel tours company
         <span id="date">{new Date().getFullYear()}</span> all rights reserved
